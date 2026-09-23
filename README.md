@@ -1,1 +1,1 @@
-# rock-paper-scissor-project-v2
+# Rock-paper-scissor-project
