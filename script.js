@@ -1,3 +1,6 @@
+    let humanScore = 0;
+    let computerScore = 0; 
+
 function playGame() {
 
         //step 3 
@@ -27,8 +30,7 @@ function playGame() {
     let computerChoice = getComputerChoice();
     console.log(computerChoice);
 
-    var humanScore = 0;
-    var computerScore = 0; 
+
 
 
         function playRound(humanChoice, computerChoice) {
@@ -48,6 +50,9 @@ function playGame() {
 }
         
 
+playGame();
+playGame();
+playGame();
 playGame();
 playGame();
 //calls for computer choice 
