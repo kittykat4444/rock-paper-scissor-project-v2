@@ -30,9 +30,6 @@ function playGame() {
     let computerChoice = getComputerChoice();
     console.log(computerChoice);
 
-
-
-
         function playRound(humanChoice, computerChoice) {
             console.log(humanChoice);
             console.log(computerChoice);
@@ -55,6 +52,9 @@ playGame();
 playGame();
 playGame();
 playGame();
+
+console.log(`Your score is ${humanScore} : ${computerScore});
+console.log(humanScore);
 //calls for computer choice 
 //calls for human choice 
 // logs winner announcement 
