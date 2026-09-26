@@ -9,7 +9,8 @@ function playGame() {
         if (input.toLowerCase() === "rock" || input.toLowerCase() === "paper" || input.toLowerCase() === "scissor") {
             return input.toLowerCase();
         } else {
-        console.log("you must enter a valid choice");
+        console.log("This round did not count. You must enter a valid choice");
+        getHumanChoice();
         }
     }
     let humanChoice = getHumanChoice();
@@ -53,14 +54,14 @@ playGame();
 playGame();
 playGame();
 
-console.log(`Your score is ${humanScore} : ${computerScore});
-console.log(humanScore);
-//calls for computer choice 
-//calls for human choice 
-// logs winner announcement 
+console.log(`Your score is ${humanScore} : ${computerScore}`);
 
-//call it a second time 
-//call it a third time
-//call it a fourth time 
-//call it a fifth time
-
+if (humanScore > computerScore) {
+    alert("You're a Winner");
+} else if (humanScore < computerScore) {
+    console.log("Sorry, you lost...");
+} else if (humanScore = computerScore) {
+    alert("the game is null");
+}
+//if the human score is lesser, declare loosing announcement
+//if scores are equal, game nul
