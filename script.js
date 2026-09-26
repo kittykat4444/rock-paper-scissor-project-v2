@@ -57,11 +57,9 @@ playGame();
 console.log(`Your score is ${humanScore} : ${computerScore}`);
 
 if (humanScore > computerScore) {
-    alert("You're a Winner");
+    console.log("You're a Winner");
 } else if (humanScore < computerScore) {
     console.log("Sorry, you lost...");
 } else if (humanScore = computerScore) {
-    alert("the game is null");
+    console.log("the game is null");
 }
-//if the human score is lesser, declare loosing announcement
-//if scores are equal, game nul
