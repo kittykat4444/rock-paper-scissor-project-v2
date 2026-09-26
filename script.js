@@ -49,6 +49,7 @@ function playGame() {
         
 
 playGame();
+playGame();
 //calls for computer choice 
 //calls for human choice 
 // logs winner announcement 
